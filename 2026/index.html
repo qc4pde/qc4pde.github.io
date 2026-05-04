@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QC4PDE 2026 — IEEE QCE 2026, Toronto</title>
+<meta name="description" content="QC4PDE 2026: Quantum Computing for PDEs workshop at IEEE Quantum Week 2026, Toronto, September 13-18, 2026.">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../index.html" class="brand"><span class="brand-mark"></span>QC4PDE</a>
+    <nav class="primary">
+      <a href="#about">About</a>
+      <a href="#cfp">Call for papers</a>
+      <a href="#dates">Dates</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#program">Program</a>
+      <a href="#organizers">Organizers</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">QC4PDE 2026 · Inaugural Edition</span>
+    <h1>Quantum Computing for PDEs:<br>Algorithms, Applications &amp; Challenges</h1>
+    <p class="hero-deck">
+      A full-day workshop at IEEE Quantum Week 2026 surveying the state of the art in quantum algorithms for partial differential equations — and charting the path to practical utility.
+    </p>
+    <div class="cta-row">
+      <a class="btn" href="#cfp">Submit a paper →</a>
+      <a class="btn btn-outline" href="https://qce.quantum.ieee.org/2026/" rel="noopener">IEEE QCE 2026 ↗</a>
+    </div>
+    <div class="hero-meta">
+      <div>
+        <span class="label">Dates</span>
+        <span class="value">Sept 13–18, 2026</span>
+      </div>
+      <div>
+        <span class="label">Venue</span>
+        <span class="value">Metro Toronto Convention Centre</span>
+      </div>
+      <div>
+        <span class="label">Format</span>
+        <span class="value">In person + virtual</span>
+      </div>
+      <div>
+        <span class="label">Co-located with</span>
+        <span class="value">IEEE Quantum Week 2026</span>
+      </div>
+    </div>
+
+    <svg class="hero-wave" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" stroke="#1a1f2e" stroke-width="0.6">
+        <path d="M0 200 Q 75 80, 150 200 T 300 200 T 450 200 T 600 200" />
+        <path d="M0 220 Q 75 100, 150 220 T 300 220 T 450 220 T 600 220" />
+        <path d="M0 240 Q 75 120, 150 240 T 300 240 T 450 240 T 600 240" />
+        <path d="M0 260 Q 75 140, 150 260 T 300 260 T 450 260 T 600 260" />
+        <path d="M0 280 Q 75 160, 150 280 T 300 280 T 450 280 T 600 280" />
+        <path d="M0 300 Q 75 180, 150 300 T 300 300 T 450 300 T 600 300" />
+      </g>
+    </svg>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Overview</span><h2>Workshop summary</h2></div>
+      <div>
+        <p class="lead">
+          QC4PDE 2026 surveys the state of the art in quantum algorithms for solving partial differential equations — from quantum linear solvers and tensor networks to quantum Monte Carlo methods — and examines their application to pressing problems in fluid dynamics, structural mechanics, nuclear energy/physics, systems biology, and finance.
+        </p>
+        <p>
+          By uniting researchers from algorithms, software, hardware, and domain sciences, the workshop equips attendees with a clear picture of where quantum-PDE solvers stand today and what milestones must be reached to deliver practical utility.
+        </p>
+
+        <div class="callout">
+          <p><strong>Background expected:</strong> a basic background in quantum computing. <strong>Not required:</strong> prior experience with classical numerical techniques for solving PDEs. We particularly encourage participation from students and early-career researchers.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-grid">
+      <div class="topic">
+        <h3>Applications</h3>
+        <ul>
+          <li>Forward &amp; inverse problems in fluid mechanics</li>
+          <li>Solid mechanics &amp; structural engineering</li>
+          <li>Biological &amp; biomedical systems</li>
+          <li>Climate &amp; weather modeling</li>
+          <li>Nuclear energy &amp; physics</li>
+          <li>Quantitative finance</li>
+        </ul>
+      </div>
+      <div class="topic">
+        <h3>Algorithms</h3>
+        <ul>
+          <li>Quantum linear solvers (HHL &amp; successors)</li>
+          <li>Hamiltonian simulation</li>
+          <li>Tensor networks</li>
+          <li>Variational methods</li>
+          <li>Quantum stochastic PDE solvers</li>
+          <li>Amplitude estimation &amp; QMC</li>
+        </ul>
+      </div>
+      <div class="topic">
+        <h3>Software &amp; workflows</h3>
+        <ul>
+          <li>Hybrid quantum-classical frameworks</li>
+          <li>State preparation &amp; readout</li>
+          <li>Error mitigation</li>
+          <li>Benchmarking pipelines</li>
+          <li>End-to-end resource estimation</li>
+          <li>HPC integration</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cfp">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Call for papers</span><h2>Submit your work</h2></div>
+      <div>
+        <p class="lead">We invite original contributions on quantum algorithms for partial differential equations and related challenges in algorithms, software, hardware, and applications.</p>
+
+        <h3 style="margin-top:2rem;">Topics of interest</h3>
+        <p>Submissions are welcome on any of the topics listed above, including but not limited to: novel quantum algorithms for linear and nonlinear PDEs; resource estimation and benchmarking; state preparation and readout strategies; tensor-network and quantum-inspired methods; applications to fluid dynamics, structural mechanics, biological systems, climate, nuclear physics, and quantitative finance; hybrid HPC-quantum workflows; and noise-resilient implementations.</p>
+
+        <h3 style="margin-top:2rem;">Submission</h3>
+        <p>
+          Submissions are managed via <strong>EasyChair</strong>. Papers should follow the IEEE QCE workshop paper guidelines.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="#" id="easychair-link">Submit via EasyChair →</a>
+          <a class="btn btn-outline" href="https://qce.quantum.ieee.org/2026/submission-deadlines/" rel="noopener">QCE 2026 deadlines ↗</a>
+        </div>
+        <p style="font-size:0.88rem; color:var(--ink-mute); margin-top:1rem;"><em>EasyChair submission link will be activated when QCE 2026 opens workshop paper submissions.</em></p>
+
+        <h3 style="margin-top:2.5rem;">Format &amp; review</h3>
+        <p>Workshop papers follow IEEE QCE submission guidelines. Refer to the <a href="https://qce.quantum.ieee.org/2026/" rel="noopener">QCE 2026 site</a> for current page limits, formatting templates, and review policy. Accepted papers will be considered for inclusion in the IEEE QCE 2026 proceedings.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dates">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Important dates</span><h2>Key deadlines</h2></div>
+      <div>
+        <p class="lead">All deadlines are anywhere on Earth (AoE). Dates are aligned with IEEE QCE 2026; check the official QCE site for the authoritative version.</p>
+      </div>
+    </div>
+
+    <div class="dates">
+      <div class="row">
+        <span class="label">Workshop paper abstract due</span>
+        <span class="date">Mon, Jun 22, 2026</span>
+      </div>
+      <div class="row">
+        <span class="label">Full workshop paper due</span>
+        <span class="date">Mon, Jun 29, 2026</span>
+      </div>
+      <div class="row">
+        <span class="label">Acceptance notification</span>
+        <span class="date">Mon, Jul 20, 2026</span>
+      </div>
+      <div class="row">
+        <span class="label">Author registration deadline</span>
+        <span class="date">Mon, Jul 27, 2026</span>
+      </div>
+      <div class="row">
+        <span class="label">Camera-ready paper for proceedings</span>
+        <span class="date">Mon, Jul 27, 2026</span>
+      </div>
+      <div class="row upcoming">
+        <span class="label"><strong>Workshop date</strong> (within QCE 2026)</span>
+        <span class="date">Sept 13–18, 2026</span>
+      </div>
+    </div>
+    <p class="tz-note">Specific workshop day within Quantum Week to be announced. See <a href="https://qce.quantum.ieee.org/2026/submission-deadlines/" rel="noopener">QCE 2026 submission deadlines ↗</a>.</p>
+  </div>
+</section>
+
+<section id="speakers">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Invited speakers</span><h2>Confirmed &amp; invited</h2></div>
+      <div>
+        <p class="lead">A diverse roster spanning quantum hardware, algorithm developers, computational scientists, and industrial practitioners.</p>
+        <p style="font-size:0.92rem; color:var(--ink-mute);"><em>The list below reflects invited speakers from the workshop proposal. Confirmation status will be updated as responses are received.</em></p>
+      </div>
+    </div>
+
+    <ul class="speaker-list">
+      <li><span class="sp-name">Mohammad Alhawwary</span><br><span class="sp-affil">GE Aerospace</span></li>
+      <li><span class="sp-name">Sachin Bharadwaj</span><br><span class="sp-affil">New York University</span></li>
+      <li><span class="sp-name">Sergey Bravyi</span><br><span class="sp-affil">IBM</span></li>
+      <li><span class="sp-name">Manu Chaudhary</span><br><span class="sp-affil">Illinois State University</span></li>
+      <li><span class="sp-name">Peyman Givi</span><br><span class="sp-affil">University of Pittsburgh</span></li>
+      <li><span class="sp-name">Niladri Gomes</span><br><span class="sp-affil">Ansys</span></li>
+      <li><span class="sp-name">Matthew Horner</span><br><span class="sp-affil">Aegiq</span></li>
+      <li><span class="sp-name">Dieter Jaksch</span><br><span class="sp-affil">Universität Hamburg</span></li>
+      <li><span class="sp-name">Leigh Lapworth</span><br><span class="sp-affil">Rolls-Royce</span></li>
+      <li><span class="sp-name">Margot Lockwood</span><br><span class="sp-affil">PNNL</span></li>
+      <li><span class="sp-name">Michael Lubasch</span><br><span class="sp-affil">Quantinuum</span></li>
+      <li><span class="sp-name">Naveed Mahmud</span><br><span class="sp-affil">Florida Institute of Technology</span></li>
+      <li><span class="sp-name">Matic Petric</span><br><span class="sp-affil">Qrisp</span></li>
+      <li><span class="sp-name">Yan Wang</span><br><span class="sp-affil">Georgia Institute of Technology</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="program">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Program</span><h2>Workshop schedule</h2></div>
+      <div>
+        <p class="lead">A full-day workshop comprising three 90-minute sessions. Each session features three 20-minute invited talks (15 min talk + 5 min Q&amp;A) and a 30-minute discussion segment.</p>
+        <p style="font-size:0.92rem; color:var(--ink-mute);"><em>Detailed schedule with confirmed speakers and titles will be posted closer to the workshop date.</em></p>
+      </div>
+    </div>
+
+    <div class="program">
+      <div class="session">
+        <div class="session-head">
+          <span class="session-title">Session 1 · Quantum algorithms for PDEs</span>
+          <span class="session-time">90 min</span>
+        </div>
+        <div class="slot"><span class="t">00:00</span><span class="desc"><strong>Invited talk 1</strong><em>Quantum linear solvers and successors · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">00:20</span><span class="desc"><strong>Invited talk 2</strong><em>Hamiltonian simulation and tensor networks · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">00:40</span><span class="desc"><strong>Invited talk 3</strong><em>Variational and stochastic PDE methods · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">01:00</span><span class="desc"><strong>Discussion</strong><em>Algorithmic frontiers — what works, what doesn&rsquo;t, what&rsquo;s next · 30 min</em></span></div>
+      </div>
+
+      <div class="session">
+        <div class="session-head">
+          <span class="session-title">Session 2 · Domain science applications</span>
+          <span class="session-time">90 min</span>
+        </div>
+        <div class="slot"><span class="t">00:00</span><span class="desc"><strong>Invited talk 4</strong><em>Fluid dynamics &amp; turbulence · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">00:20</span><span class="desc"><strong>Invited talk 5</strong><em>Structural mechanics, biology, or finance · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">00:40</span><span class="desc"><strong>Invited talk 6</strong><em>Industrial perspective &amp; benchmarking · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">01:00</span><span class="desc"><strong>Discussion</strong><em>What problems are ready for quantum? · 30 min</em></span></div>
+      </div>
+
+      <div class="session">
+        <div class="session-head">
+          <span class="session-title">Session 3 · Open challenges &amp; community roadmap</span>
+          <span class="session-time">90 min</span>
+        </div>
+        <div class="slot"><span class="t">00:00</span><span class="desc"><strong>Invited talk 7</strong><em>State preparation &amp; readout overhead · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">00:20</span><span class="desc"><strong>Invited talk 8</strong><em>End-to-end resource estimation · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">00:40</span><span class="desc"><strong>Invited talk 9</strong><em>NISQ-to-FT transition &amp; noise resilience · 15 min talk + 5 min Q&amp;A</em></span></div>
+        <div class="slot"><span class="t">01:00</span><span class="desc"><strong>Roadmap discussion</strong><em>Charting QC4PDE working group activities &amp; next steps · 30 min</em></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="organizers">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Organizers</span><h2>Workshop committee</h2></div>
+      <div>
+        <p class="lead">The 2026 organizing committee brings together expertise across national labs, industry, and academia.</p>
+      </div>
+    </div>
+
+    <div class="people">
+      <div class="person">
+        <div class="role">Main contact</div>
+        <div class="name">Muralikrishnan Gopalakrishnan Meena</div>
+        <div class="affil">Computational Scientist<br>Oak Ridge National Laboratory</div>
+        <a href="mailto:gopalakrishm@ornl.gov">gopalakrishm@ornl.gov</a>
+      </div>
+      <div class="person">
+        <div class="role">Co-organizer</div>
+        <div class="name">Pooja Rao</div>
+        <div class="affil">Senior Quantum Algorithm Engineer<br>NVIDIA Corporation</div>
+      </div>
+      <div class="person">
+        <div class="role">Co-organizer</div>
+        <div class="name">Hessam Babaee</div>
+        <div class="affil">Associate Professor<br>University of Pittsburgh</div>
+      </div>
+      <div class="person">
+        <div class="role">Co-organizer</div>
+        <div class="name">Callum W. Duncan</div>
+        <div class="affil">Head of Quantum Applications<br>Aegiq Ltd.</div>
+      </div>
+      <div class="person">
+        <div class="role">Co-organizer</div>
+        <div class="name">Esam El-Araby</div>
+        <div class="affil">Associate Professor<br>University of Kansas</div>
+      </div>
+      <div class="person">
+        <div class="role">Co-organizer</div>
+        <div class="name">Andrew Gallo</div>
+        <div class="affil">Research Software Architect<br>GE Aerospace Research</div>
+      </div>
+      <div class="person">
+        <div class="role">Co-organizer</div>
+        <div class="name">Kalyana C. Gottiparthi</div>
+        <div class="affil">Computational Scientist<br>Oak Ridge National Laboratory</div>
+      </div>
+      <div class="person">
+        <div class="role">Co-organizer</div>
+        <div class="name">Chao Lu</div>
+        <div class="affil">Postdoctoral Research Associate<br>Oak Ridge National Laboratory</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="register">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Attend</span><h2>Registration &amp; venue</h2></div>
+      <div>
+        <p class="lead">QC4PDE 2026 is open to all registered IEEE QCE 2026 attendees. Both in-person and virtual attendance options are available through QCE.</p>
+        <p>The conference takes place at the <strong>Metro Toronto Convention Centre</strong>, Toronto, Ontario, Canada. Recordings will be available to registered attendees through the QCE virtual platform.</p>
+        <div class="cta-row">
+          <a class="btn" href="https://qce.quantum.ieee.org/2026/" rel="noopener">QCE 2026 registration ↗</a>
+          <a class="btn btn-outline" href="https://qce.quantum.ieee.org/2026/attend/in-person-event-with-virtual-component/" rel="noopener">Virtual attendance info ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="font-size:1.1rem;"><span class="brand-mark"></span>QC4PDE 2026</div>
+        <p style="margin-top:0.75rem; max-width:32em;">Inaugural edition at IEEE Quantum Week 2026. Toronto · September 13–18, 2026.</p>
+        <p style="font-size:0.85rem;">Contact: <a href="mailto:gopalakrishm@ornl.gov">gopalakrishm@ornl.gov</a></p>
+      </div>
+      <div>
+        <h4>This edition</h4>
+        <ul>
+          <li><a href="#cfp">Call for papers</a></li>
+          <li><a href="#dates">Dates</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Workshop series</h4>
+        <ul>
+          <li><a href="../index.html">QC4PDE home</a></li>
+          <li><a href="../index.html#community">Working group</a></li>
+          <li><a href="https://qce.quantum.ieee.org/2026/" rel="noopener">IEEE QCE 2026 ↗</a></li>
+          <li><a href="https://qce.quantum.ieee.org/" rel="noopener">IEEE Quantum Week ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 2026 QC4PDE Workshop Organizers</span>
+      <span>Source on <a href="https://github.com/qc4pde/qc4pde.github.io">GitHub</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
