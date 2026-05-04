@@ -2,7 +2,7 @@
 
 Source for the QC4PDE workshop series website, hosted on GitHub Pages.
 
-**Live site:** https://qc4pde.github.io (after deployment)
+**Live site:** https://qc4pde.github.io
 
 ---
 
