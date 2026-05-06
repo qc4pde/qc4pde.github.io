@@ -364,6 +364,20 @@ nav.primary a.current {
   flex-direction: column;
 }
 
+.person .photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  background: var(--paper-deep);
+  filter: grayscale(20%) contrast(0.95);
+  transition: filter 0.3s ease;
+}
+
+.person:hover .photo {
+  filter: grayscale(0%) contrast(1);
+}
+
 .person .name {
   font-family: 'Fraunces', serif;
   font-size: 1.1rem;
