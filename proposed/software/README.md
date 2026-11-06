@@ -27,7 +27,13 @@ These activities may include but is not limited to:
 
 - technical support for the consortium's code and data repositories (but not including data ownership or stewardship)
 
-    - estimation & runtime metadata store & harvest
-    - consortium doc & data repo(s)
-    - [?] repo(s) - charter, meetings, links, baseline "q8020" code/results
-    - [?] 1Q27: publish open source framework & tooling (JOSS?)
+
+## Goals 
+
+* 2026
+    - 4Q26: document, review, & playtest PDE solverfw v0.2 with plugin spec
+
+* 2027
+    - 1Q27: PDE solverfw plugin build-out, runs, benchmarking
+    - 2Q27: publish open source framework & tooling (JOSS?)
+

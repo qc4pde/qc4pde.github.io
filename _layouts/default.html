@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} — {% endif %}QC4PDE</title>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="{{ '/index.html' | relative_url }}" class="brand"><span class="brand-mark"></span>QC4PDE</a>
+    <nav class="primary">
+      <a href="{{ '/index.html#mission' | relative_url }}">Mission</a>
+      <a href="{{ '/index.html#activities' | relative_url }}">Activities</a>
+      <a href="{{ '/events/index.html' | relative_url }}">Events</a>
+      <a href="{{ '/index.html#committee' | relative_url }}">Members</a>
+      <a href="{{ '/index.html#join' | relative_url }}">Join</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="doc">
+  <div class="wrap prose">
+{{ content }}
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="copyright">
+      <span>© 2026 QC4PDE Consortium</span>
+      <span>Source on <a href="https://github.com/qc4pde/qc4pde.github.io">GitHub</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
