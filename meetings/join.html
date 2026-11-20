@@ -3,19 +3,21 @@ title: Meeting Link
 ---
 <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
-<h1>QC4PDE Meeting Link</h1>
+<div style="max-width:none; text-align:center;">
+  <h1>QC4PDE Meeting Link</h1>
 
-<p>Complete the CAPTCHA, then select <strong>Show meeting link</strong>.</p>
+  <p>Complete the CAPTCHA, then select <strong>Show meeting link</strong>.</p>
 
-<form id="captcha-form">
-  <div class="h-captcha" data-sitekey="15f0b504-ccc6-4324-8744-a4aa08320768"></div>
-  <p><button type="submit" class="btn">Show meeting link</button></p>
-</form>
+  <form id="captcha-form">
+    <div class="h-captcha" style="display:inline-block;" data-sitekey="15f0b504-ccc6-4324-8744-a4aa08320768"></div>
+    <p><button type="submit" class="btn">Show meeting link</button></p>
+  </form>
 
-<p id="captcha-message" role="alert"></p>
-<div id="meeting-info" hidden></div>
+  <p id="captcha-message" role="alert"></p>
+  <div id="meeting-info" hidden></div>
 
-<p><a href="./">← Back to meetings</a></p>
+  <p><a href="./">← Back to meetings</a></p>
+</div>
 
 <script>
   // Encoded so the Zoom URL and passcode are not in the page as plain text.
