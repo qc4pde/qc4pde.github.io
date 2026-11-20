@@ -1,5 +1,10 @@
+---
+title: "Charter"
+---
 
-# QC4PDE Charter: Executive Summary
+# QC4PDE Charter
+
+*Also available as an [executive summary](summary.md).*
 
 The Quantum Computing for Partial Differential Equations (QC4PDE) Consortium is
 a pre-competitive, collaborative initiative established to determine whether

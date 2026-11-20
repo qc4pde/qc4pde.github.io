@@ -1,0 +1,38 @@
+---
+title: Meeting Link
+---
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
+<h1>QC4PDE Meeting Link</h1>
+
+<p>Complete the CAPTCHA, then select <strong>Show meeting link</strong>.</p>
+
+<form id="captcha-form">
+  <!-- Test sitekey (always passes). Replace with the consortium's hCaptcha sitekey before going live. -->
+  <div class="h-captcha" data-sitekey="10000000-ffff-ffff-ffff-000000000001"></div>
+  <p><button type="submit" class="btn">Show meeting link</button></p>
+</form>
+
+<p id="captcha-message" role="alert"></p>
+<div id="meeting-info" hidden></div>
+
+<p><a href="./">← Back to meetings</a></p>
+
+<script>
+  // Encoded so the Zoom URL and passcode are not in the page as plain text.
+  const MEETING_INFO = "PHA+PGEgaHJlZj0iaHR0cHM6Ly92aXJnaW5pYS56b29tLnVzL2ovOTU0NTM0NzM3NDE/cHdkPWNyWXlBa3BhZ1RuUmY2SWV1dHV2dVV5YUxtV1g2ci4xIj5Kb2luIFpvb20gTWVldGluZzwvYT48L3A+PHA+TWVldGluZyBJRDogOTU0IDUzNDcgMzc0MTxicj5QYXNzY29kZTogMTk4ODUyPC9wPjxwPk9uZSB0YXAgbW9iaWxlPGJyPisxMzEyNjI2Njc5OSwsOTU0NTM0NzM3NDEjIFVTIChDaGljYWdvKTxicj4rMTQ3MDI1MDkzNTgsLDk1NDUzNDczNzQxIyBVUyAoQXRsYW50YSk8L3A+PHA+Sm9pbiBieSBTSVA8YnI+OTU0NTM0NzM3NDFAem9vbWNyYy5jb208YnI+UGFzc2NvZGU6IDE5ODg1MjwvcD4=";
+
+  document.getElementById('captcha-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const message = document.getElementById('captcha-message');
+    if (typeof hcaptcha === 'undefined' || !hcaptcha.getResponse()) {
+      message.textContent = 'Please complete the CAPTCHA first.';
+      return;
+    }
+    message.textContent = '';
+    const info = document.getElementById('meeting-info');
+    info.innerHTML = atob(MEETING_INFO);
+    info.hidden = false;
+    e.target.hidden = true;
+  });
+</script>
