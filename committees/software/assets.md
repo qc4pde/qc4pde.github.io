@@ -73,6 +73,6 @@ title: "Software & Tooling · Assets, Work in Progress & Next Steps"
 - general pre-release tidy-up of the above algorithm & tool assets;
   incorporate other component sets (e.g. Brightskies)
 - experiment results catalog: structure, linking, maintenance plan - for
-  handoff to the [Benchmarks & Stewardship](../benchmarks/README.md)
+  handoff to the [Benchmarks & Stewardship](../benchmarks/index.md)
   committee
 - solverfwq (with Brightskies, others?)
