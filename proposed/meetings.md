@@ -7,12 +7,12 @@ Generally but not always 2nd Friday of the month at 11am Eastern Time.
 
 | Meeting                       | Agenda  | Minutes |
 | ----------------------------- | ------- | ------- |
-| Fri 2026-11-20 @ 11 ET        | [agenda](meetings/2026-11-20-agenda.md) | [minutes](meetings/2026-11-20-minutes.md) |
-| Fri 2026-10-16 @ 11 ET        | [agenda](meetings/2026-10-16-agenda.md) | [minutes](meetings/2026-10-16-minutes.md) |
-| Fri 2026-08-28 @ 11 ET        | [agenda](meetings/2026-08-28-agenda.md) | [minutes](meetings/2026-08-28-minutes.md) |
-| Fri 2026-07-31 @ 11 ET        | [agenda](meetings/2026-07-31-agenda.md) | [minutes](meetings/2026-07-31-minutes.md) |
+| Fri 2026-11-20                | [agenda](meetings/2026-11-20-agenda.md) | [minutes](meetings/2026-11-20-minutes.md) |
+| Fri 2026-10-16                | [agenda](meetings/2026-10-16-agenda.md) | [minutes](meetings/2026-10-16-minutes.md) |
+| Fri 2026-08-28                | [agenda](meetings/2026-08-28-agenda.md) | [minutes](meetings/2026-08-28-minutes.md) |
+| Fri 2026-07-31                | [agenda](meetings/2026-07-31-agenda.md) | [minutes](meetings/2026-07-31-minutes.md) |
 | Wed 2026-06-17                | [agenda](meetings/2026-06-17-agenda.md) | [minutes](meetings/2026-06-17-minutes.md) |
-| Wed 2026-05-06 (LEAD)         | [agenda](meetings/2026-05-06-agenda.md) | [notes](meetings/2026-05-06-minutes.md) |
+| Wed 2026-05-06                | [agenda](meetings/2026-05-06-agenda.md) | [notes](meetings/2026-05-06-minutes.md) |
 
 ## Meeting Info 
 
