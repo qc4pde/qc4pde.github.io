@@ -1,4 +1,10 @@
+---
+title: "Charter · Executive Summary"
+---
+
 # QC4PDE Consortium: Executive Summary
+
+*Read the [full charter](index.md).*
 
 The QC4PDE Consortium is a collaborative, pre-competitive initiative focused on
 determining whether quantum computing can provide practical value for PDE

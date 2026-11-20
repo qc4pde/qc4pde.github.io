@@ -13,9 +13,10 @@
     <a href="{{ '/index.html' | relative_url }}" class="brand"><span class="brand-mark"></span>QC4PDE</a>
     <nav class="primary">
       <a href="{{ '/index.html#mission' | relative_url }}">Mission</a>
-      <a href="{{ '/index.html#activities' | relative_url }}">Activities</a>
+      <a href="{{ '/committees/' | relative_url }}"{% if page.url contains '/committees/' %} class="current"{% endif %}>Committees</a>
+      <a href="{{ '/meetings/' | relative_url }}"{% if page.url contains '/meetings/' %} class="current"{% endif %}>Meetings</a>
       <a href="{{ '/events/index.html' | relative_url }}">Events</a>
-      <a href="{{ '/index.html#committee' | relative_url }}">Members</a>
+      <a href="{{ '/index.html#members' | relative_url }}">Members</a>
       <a href="{{ '/index.html#join' | relative_url }}">Join</a>
     </nav>
   </div>

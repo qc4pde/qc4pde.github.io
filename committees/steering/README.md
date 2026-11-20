@@ -1,3 +1,6 @@
+---
+title: "Steering & Outreach"
+---
 
 # QC4PDE: Steering & Outreach 
 

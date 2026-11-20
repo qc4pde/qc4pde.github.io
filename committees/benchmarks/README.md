@@ -1,11 +1,14 @@
+---
+title: "Benchmarks & Stewardship"
+---
 
 # QC4PDE: Benchmarks & Stewardship 
 
 ## Co-Chairs
 
-* t.b.d., [contact]
+* Mohammad Alhawwary, GE Aerospace, [contact]
 
-* t.b.d., [contact]
+* Melvina Quartey, Rensselaer Polytechnic Institute, [contact]
 
 
 ## Purpose

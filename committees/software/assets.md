@@ -1,3 +1,7 @@
+---
+title: "Software & Tooling · Assets, Work in Progress & Next Steps"
+---
+
 # QC4PDE Software & Tooling: Assets, Work in Progress & Next Steps
 
 *2026-11-19*
@@ -12,7 +16,7 @@
       links)
         - source: <https://github.com/qc4pde/qc4pde.github.io>
         - web: <https://qc4pde.github.io/>
-        - proposed: <https://qc4pde.github.io/proposed/>
+        - consortium: <https://qc4pde.github.io/committees/>
 
 - Q8020-CFD Org: <https://github.com/Q8020-CFD>
     - many repos:
