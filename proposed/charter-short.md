@@ -1,8 +1,8 @@
 # QC4PDE Consortium: Executive Summary
 
 The QC4PDE Consortium is a collaborative, pre-competitive initiative focused on
-determining whether quantum computing can provide practical value for PDE and
-CFD applications.
+determining whether quantum computing can provide practical value for PDE
+applications across science and engineering.
 
 It is founded on the recognition that there is currently no proven case for
 quantum utility, no dominant method, and no clear hardware path in this area.
@@ -36,4 +36,4 @@ resources.
 
 **In short:** QC4PDE exists to generate credible evidence and practical
 guidance on whether, where, and under what conditions quantum computing may be
-useful for PDE/CFD—including concluding when it is not.
+useful for PDEs—including concluding when it is not.

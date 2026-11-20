@@ -3,13 +3,13 @@
 
 The Quantum Computing for Partial Differential Equations (QC4PDE) Consortium is
 a pre-competitive, collaborative initiative established to determine whether
-quantum computing can deliver practical value for partial differential
-equations (PDE) and computational fluid dynamics (CFD).
+quantum computing can deliver practical value for solving partial differential
+equations (PDE) across science and engineering domains including, but not limited to, solid mechanics, fluid dynamics, systems biology, and finance.
 
 ## Why the Consortium exists
 
 The charter begins from a clear-eyed assessment of the field: today there is no
-proven case for quantum advantage in PDE/CFD, no dominant technical method, and
+proven case for quantum advantage in PDE, no dominant technical method, and
 no established hardware path. The Consortium’s purpose is therefore not to
 promote quantum computing, but to provide a rigorous, evidence-based framework
 for evaluating where quantum, classical, or hybrid approaches may be
@@ -20,7 +20,7 @@ useful—and where they may not.
 QC4PDE’s mission is to organize a shared research and benchmarking effort
 focused on:
 
-- identifying scientifically and industrially relevant PDE/CFD use cases,
+- identifying scientifically and industrially relevant PDE use cases,
 - developing meaningful benchmark problems and workflows,
 - fairly assessing quantum, classical, and hybrid methods,
 - supporting realistic roadmap and stretch-goal analysis through sound
@@ -50,7 +50,7 @@ The Consortium is guided by several key principles:
 
 QC4PDE will study present-day and future-oriented methods across:
 
-- canonical PDE/CFD benchmarks,
+- canonical PDE benchmarks,
 - increasingly ambitious stretch-goal problems,
 - real scientific and industrial applications,
 - end-to-end workflows,
@@ -78,7 +78,7 @@ Benchmarks are expected to be well documented, including equations,
 assumptions, discretizations, baselines, algorithm descriptions,
 software/hardware environment, resource requirements, and performance metrics.
 
-The charter also recognizes that validation in PDE/CFD cannot always rely
+The charter also recognizes that validation of PDE solutions cannot always rely
 solely on direct comparison with classical reference solutions. It therefore
 supports broader evaluation methods such as:
 
@@ -120,7 +120,7 @@ Likely deliverables include:
 ## Bottom line
 
 The QC4PDE Consortium is designed to become a neutral, credible forum for
-determining whether quantum computing can meaningfully impact PDE/CFD. Its
+determining whether quantum computing can meaningfully impact PDE. Its
 value lies in producing comparative evidence, practical guidance, shared
 benchmarks, and a durable research community—including the important
 possibility of showing where quantum utility is unlikely or not yet justified.
