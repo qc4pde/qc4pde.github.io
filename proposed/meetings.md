@@ -7,6 +7,7 @@ Generally but not always 2nd Friday of the month at 11am Eastern Time.
 
 | Meeting                       | Agenda  | Minutes |
 | ----------------------------- | ------- | ------- |
+| Fri 2026-12-11                | [agenda](meetings/2026-12-11-agenda.md) | [minutes](meetings/2026-12-11-minutes.md) |
 | Fri 2026-11-20                | [agenda](meetings/2026-11-20-agenda.md) | [minutes](meetings/2026-11-20-minutes.md) |
 | Fri 2026-10-16                | [agenda](meetings/2026-10-16-agenda.md) | [minutes](meetings/2026-10-16-minutes.md) |
 | Fri 2026-08-28                | [agenda](meetings/2026-08-28-agenda.md) | [minutes](meetings/2026-08-28-minutes.md) |
