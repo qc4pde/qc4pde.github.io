@@ -33,6 +33,11 @@ Activities may include but are not limited to:
 - promoting the work of the consortium and its members via member lists, publication reference lists, media announcements, and other promotional mechanisms for the benefit of the consortium
 
 
+## Status
+
+* [Updates & next steps](updates_2026-11-20.md) (2026-11-20)
+
+
 
 
 
