@@ -37,3 +37,8 @@ These activities may include but is not limited to:
     - 1Q27: PDE solverfw plugin build-out, runs, benchmarking
     - 2Q27: publish open source framework & tooling (JOSS?)
 
+
+## Status
+
+* [Assets, work in progress & next steps](assets.md) (2026-11-19)
+
